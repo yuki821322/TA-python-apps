@@ -25,5 +25,6 @@ urlpatterns = [
     path("hello/", hello_world),
     path("index/", index),
     path('', include('TA_work.urls')),
+    path('work06/', include('work06.urls')),
 ]
     
